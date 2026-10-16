@@ -5,7 +5,14 @@
 					sub-title="{{item.product.desc}}">
 				<div class="row">
 				  <div class="col-xs-12">
-					<img class="img-responsive img-circle" ng-src="/app/imgs/{{item.product.name}}.jpg"></img>
+					<div style="font-size:64px;text-align:center;padding:20px" ng-switch="item.product.itemId">
+					<span ng-switch-when="100">&#x1F3E5;</span>
+					<span ng-switch-when="101">&#x1FA7A;</span>
+					<span ng-switch-when="102">&#x1F9B7;</span>
+					<span ng-switch-when="103">&#x1F453;</span>
+					<span ng-switch-when="104">&#x1F6E1;</span>
+					<span ng-switch-default>&#x2695;</span>
+				</div>
 				  </div>
 				</div>							
 
@@ -30,7 +37,7 @@
 				    	</select>
 				    	
 					  </div>
-					  <button ng-click="addToCart(item)" type="submit" class="btn btn-default">Add To Cart</button>
+					  <button ng-click="addToCart(item)" type="submit" class="btn btn-default">Elect Plan</button>
 					</form>
 				  </div>
 				</div>

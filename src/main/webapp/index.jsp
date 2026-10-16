@@ -7,7 +7,7 @@ request.getSession(true);
 
 <head>
 	<meta charset="utf-8">
-	<title>Red Hat Cool Store MSA - Monolith</title>
+	<title>Acme Inc. Benefits Management</title>
 	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/bower_components/angular/angular.min.js"></script>
